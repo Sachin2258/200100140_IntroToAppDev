@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'buttons.dart';
 import 'package:math_expressions/math_expressions.dart';
@@ -26,12 +25,12 @@ class _HomePageState extends State<HomePage> {
   var userInput = '';
   var answer = '';
 
-  // Array of button
+// Array of button
   final List<String> buttons = [
     'C',
-    'DEL',
-    ' ',
     '',
+    '',
+    'DEL',
     '7',
     '8',
     '9',
@@ -136,7 +135,7 @@ class _HomePageState extends State<HomePage> {
                       );
                     }
 
-                    //  other buttons
+                    // other buttons
                     else {
                       return MyButton(
                         buttontapped: () {
